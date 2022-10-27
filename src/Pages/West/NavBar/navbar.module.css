@@ -1,0 +1,23 @@
+.container{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 4rem;
+    margin-bottom: -1px;
+    background-color: #e1e0e0; /*Mudar para cor Secundaria*/
+}
+
+.logo{
+    width: 11rem;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .container{
+        padding: 1rem 2rem;
+    }
+}

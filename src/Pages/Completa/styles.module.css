@@ -1,0 +1,26 @@
+/* SCROLLBAR*/
+::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #007FA3; /*mudar para cor Secundaria*/
+    border-radius: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #06C8FF; /*mudar para cor primaria*/
+    border-radius: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #453B9D; /*mudar para cor primaria*/
+  }
+
+  :focus {
+    outline: 0;
+  }
+  ::selection {
+    color: var(--corLetraMain);
+    background-color: #007FA3; /*mudar para cor primaria*/
+  }

@@ -1,0 +1,18 @@
+/* SCROLLBAR*/
+::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #85024c; /*mudar para cor Secundaria*/
+    border-radius: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: black; /*mudar para cor primaria*/
+    border-radius: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #85024c; /*mudar para cor primaria*/
+  }

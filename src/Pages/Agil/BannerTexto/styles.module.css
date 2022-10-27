@@ -1,0 +1,150 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:0 10rem;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    margin-top:5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.termos-cont{
+    display: flex;
+    flex-direction: column;
+}
+.first-title{
+    font-size: 2rem;
+    margin:2rem 0;
+    font-weight: 900;
+    color: #c39a2b;     /* Mudar para a cor Pimaria */
+
+}
+.first-txt{
+    margin-bottom: 2rem;
+    text-align:justify;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: #c39a2b; /* Mudar para a cor Pimaria */
+}
+.sub-title{
+    margin: 1rem;
+    font-weight: 700;
+    color: var(--corLetraMain);
+
+}
+.sub-sub-title{
+    margin:0.5rem 3rem;
+    font-weight: 500;
+    color: var(--corLetraLight);
+
+}
+.txt{
+    margin-bottom: 1rem;
+    color: var(--corLetraMain);
+    text-align:justify;
+}
+.nota{
+    font-weight: 900 ;
+    margin-bottom: 1rem;
+}
+.imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img1{
+    width: 80%;
+    margin-bottom: 2%;
+}
+.img2{
+    width: 70%;
+    margin-bottom: 2%;
+
+}
+.img3{
+    width: 70%;
+    margin-bottom: 2%;
+}
+.img4{
+    width: 80%;
+}
+.img5{
+    width: 70%;
+}
+.img6{
+    width: 70%;
+}
+
+.img7{
+    width: 70%;
+}
+
+.img8{
+    width: 70%;
+    margin-bottom: 3%;
+}
+
+.item-lista{
+    list-style-type: square;
+    margin-top: 2rem;
+}
+
+@media (max-width: 1024px){
+    .container{
+        padding: 5rem;
+    }
+    .text-container{
+        margin-top: 1rem;
+    }
+    .sub-sub-title{
+        margin: 0.5rem 1.5rem;
+    }
+}
+@media (max-width: 500px){
+    .container{
+        padding: 2rem;
+    }
+    .text-container{
+        margin-top: 1rem;
+    }
+    .sub-sub-title{
+        margin: 0.5rem 1.5rem;
+    }
+    .img1{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .img2{
+        width: 100%;
+        margin-bottom: 2%;
+    
+    }
+    .img3{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    .img4{
+        width: 100%;
+    }
+    .img5{
+        width: 100%;
+    }
+    .img6{
+        width: 100%;
+    }
+    
+    .img7{
+        width: 100%;
+    }
+    
+    .img8{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+}
